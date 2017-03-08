@@ -61,3 +61,6 @@ $route->get("exgalibas/login/<name:joker>", "login")
 //parse the request
 $route->dispatch();
 ```
+
+### Error
+If dispatch error, exit "404"
