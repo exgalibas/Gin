@@ -109,7 +109,9 @@ class Gin
     public function dispatch()
     {
         $result = $this->parseRequest();
-
+        if (!$result) {
+            exit('404');
+        }
         $route = $result['route'];
         $params = isset($result['params']) && !empty($result['params']) ? $result['params'] : null;
 
