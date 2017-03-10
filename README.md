@@ -1,6 +1,6 @@
 Gin
 ====
-A simple route base on yii2. You can get the source code easily by downloading file or using composer.
+A simple route for PHP base on yii2. You can get the source code easily by downloading file or using composer.
 
 ### Composer
 If you have composer, just require gin as dependency in your composer.json, like the following.
