@@ -4,7 +4,9 @@ A simple route for PHP based on yii2. You can get the source code easily by down
 
 ### Composer
 If you have composer
+```
     composer require exgalibas/gin
+```
 
 ### Using
 Use the namaspace
