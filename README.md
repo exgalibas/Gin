@@ -3,12 +3,8 @@ Gin
 A simple route for PHP based on yii2. You can get the source code easily by downloading file or using composer.
 
 ### Composer
-If you have composer, just require gin as dependency in your composer.json, like the following.
-```
-require: {
-    "exgalibas/gin": "dev-master"
-}
-```
+If you have composer
+    composer require exgalibas/gin
 
 ### Using
 Use the namaspace
